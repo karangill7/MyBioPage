@@ -35,7 +35,7 @@
             text-align: center;
         }
         .main-container {
-            
+
             background-color:green;
             width:80%;
             height:100%;
@@ -46,7 +46,7 @@
         }
         .bio-container {
             height: 140px;
-            background-color:#CCC;  
+            background-color:#CCC;
         }
         .avatar {
             width:180px;
@@ -67,11 +67,13 @@
             margin-top:20px;
         }
         .left-sidebar {
-            width:130px;
+            float: left;
+            width:180px;
             height:100%;
-            background-color:red;
+            background-color:#cccccc;
         }
         .left-sidebar ul {
+            text-align: center;
             display: block;
         }
         .left-sidebar li {
@@ -80,9 +82,24 @@
             border-bottom:1px solid #FFF;
         }
         .left-sidebar ul li a {
-            color:white;
+            text-decoration: none;
+            color:#000;
             padding:10px;
             display: block;
+            font-weight: bold;
+            transition-duration: 0.5s;
+        }
+        .left-sidebar ul li a:hover {
+            color:#FFF;
+            opacity: 0.5;
+            background-color: rgb(122, 115, 112);
+        }
+        .gallery {
+          float: left;
+          height: calc(100% - 30px);
+          padding: 15px;
+          width: calc(100% - 210px);
+          background-color: red;
         }
 
 
@@ -115,12 +132,12 @@
                 </ul>
             </aside>
             <div class="gallery">
-
+                <h3>Gallery</h3>
             </div>
         </div>
     </div>
     <footer class="main-footer">
-        <span class="legal-text">Created by Lucas Phan</span>
+        <span class="legal-text">Created by Karan Gill</span>
     </footer>
 </body>
 
